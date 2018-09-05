@@ -36,10 +36,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bdead frontier 2\b/g, "dead frontier 2 free-to-play early access violent zombie gore rpg indie survival horror first/third-person shooter online co-op MMORPG");
+	v = v.replace(/\bDead Frontier 2\b/g, "Dead Frontier 2 free-to-play early access violent zombie gore rpg indie survival horror first/third-person shooter online co-op MMORPG");
+	v = v.replace(/\bdead Frontier\b/g, "dead Frontier 2 free-to-play early access violent zombie gore rpg indie survival horror first/third-person shooter online co-op MMORPG");
+	v = v.replace(/\bDead frontier\b/g, "Dead frontier 2 free-to-play early access violent zombie gore rpg indie survival horror first/third-person shooter online co-op MMORPG");
 	
 	textNode.nodeValue = v;
 }
